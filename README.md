@@ -3,7 +3,7 @@
 ## Contribution 1: Optimize trampled data in MemoryPacking
 
 **Contribution Number:** 1 / 2 / 3
-**Student:** Syeda Rahman
+**Student:** Jacky Li
 **Issue:** [WebAssembly/binaryen Issue #3244](https://github.com/WebAssembly/binaryen/issues/3244)
 **Status:** [Phase I / Phase II / Phase III / Phase IV] — [In Progress / Complete]
 
