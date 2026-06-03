@@ -15,7 +15,6 @@ I chose this issue because it connects directly to the kind of low-level systems
  
 My work in edge AI deepens that interest further. Deploying and optimizing models on embedded and low-power devices means I'm constantly thinking about memory layout, data boundaries, and transfer overhead — the same concerns that make this bug genuinely tricky. I've also worked with neuromorphic and event-based hardware and researched SNNs and TinyML, so I'm used to reasoning about systems where getting the data pipeline exactly right is critical for correctness and performance.
  
-The page boundary edge case flagged in the issue description is what really drew me in. Changing `copy_to_user` to copy only `ret_entry_num` entries is straightforward, but reasoning correctly about what happens when a large array crosses page boundaries is a genuine systems challenge. I want to understand how production kernel code handles that class of problem, and contributing a correct solution here would push me to think at that level.
  
 ---
  
